@@ -1,0 +1,63 @@
+
+body {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+}
+
+.container {
+    width: 223px;
+    background: lightpink;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: row wrap;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    padding: 50px 0;
+}
+
+.box {
+    min-width: 70px;
+    min-height: 70px;
+    display: inline-block;
+    border: 2px solid lightpink;
+    background: white;
+    border-radius: 3px;
+    margin: 0;
+    padding: 0;
+}
+
+.box:hover {
+    background: lightyellow;
+    transition: 0.2s ease-in;
+}
+
+.box h1 {
+    line-height: 70px;
+    margin: 0;
+}
+
+footer {
+    margin-top: 50px;
+    color: gray;
+}
+
+button {
+    background:lightblue;
+    font-size: 1em;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-family: 'Jua', sans-serif;
+    outline: none;
+    border: none;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+    background: lightskyblue;
+}
